@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TOP-MANGA</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="http://fonts.cdnfonts.com/css/made-okine-sans-personal-use?styles=133391"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+      <div class="force-overflow"></div>
+    <header>
+      <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">TOPMANGA</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#chartdiv">Top 10 Manga</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <div>
+      <div class="slider">
+        <img src="img/demonslayer.png" alt="Demon Slayer" class="img__slider active"/>
+        <img src="img/haikyu.png" alt="Haikyu!!" class="img__slider"/>
+        <img src="img/hxh.png" alt="Hunter x Hunter" class="img__slider"/>
+        <img src="img/mha.png" alt="My Hero Academia" class="img__slider" >
+      </div>
+      <a href="#chartdiv" class="btn-bot"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="m13.293 4.293 1.414 1.414L8 12.414 1.293 5.707l1.414-1.414L8 9.586z" style="fill: rgb(255, 255, 255);"></path></svg></a>
+    </div>
+    </header>
+    <main>
+      <div class="content">
+        <h1 class="title">Top 10 | Mangas les plus vendues de 1997 à 2021</h1>
+      </div>
+      <script src="https://www.amcharts.com/lib/4/core.js"></script>
+      <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+      <script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
+      <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+      <script src="js/dataviz2.js"></script>
+      <div id="chartdiv"></div>
+    <div class="content">
+        <img src="img/luffy.jpg" alt="Luffy - One Piece">
+        <p class="text-chart">
+          Ce graphique montre l'évolution des mangas les plus vendus de 1997 à
+          2021.Dans les années 2000, le monde du manga connaît un pic d'achat et
+          une pièce domine le podium de manière continue avec des millions de
+          ventes. A partir de 2014, la vente de manga sur le marché diminue en
+          raison de la sortie de séries animées qui reprennent l'histoire du manga
+          et de l'anime. Mais en 2020, le monde du manga gagne en popularité et le
+          nombre de ventes explose, l'anime one piece est détrôné par l'anime de
+          la nouvelle génération.
+        </p>
+    </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

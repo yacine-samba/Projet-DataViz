@@ -1,0 +1,146 @@
+
+
+*{
+  
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "MADE Okine Sans PERSONAL USE";
+  background-color: #30303d;
+  color: #fff;
+}
+
+/* HEADER */
+
+
+
+/* NAVBAR  */
+
+.nav {
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  margin: 0 10px;
+  border-bottom: 1px  solid #fff;
+}
+
+.nav div.logo {
+  float: left;
+  width: auto;
+  height: auto;
+  padding-left: 3rem;
+}
+
+.nav div.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.nav div.logo a:hover {
+  color: #d7e3dd;
+  transition: 0.7s ease-in-out;
+}
+
+.nav div.main_list {
+  height: 65px;
+  float: right;
+}
+
+.nav div.main_list ul {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav div.main_list ul li {
+  width: auto;
+  height: 65px;
+  padding: 0;
+  padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 65px;
+  font-size: 1.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+  color: #d7e3dd;
+  transition: 0.7s ease-in-out;
+}
+
+header{
+  height: 100vh;
+}
+.slider {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.slider img {
+  object-fit: cover;
+  height: 70%;
+  width: 70%;
+  position: absolute;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+.btn-bot{
+  display: flex;
+  justify-content: center;
+}
+.btn-bot svg{
+  width: 3%;
+  height: 3%;
+}
+
+/* BAR CHART RACE MANGA */
+#chartdiv {
+  width: auto;
+  height: 500px;
+}
+
+/* TEXT CHART */
+
+.content{
+  display: flex;
+  margin: 50px;
+
+}
+.content img{
+  width: 500px;
+  padding: 10px;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-radius: 30px;
+}
+.text-chart {
+  padding: 50px;
+  text-align: justify;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
